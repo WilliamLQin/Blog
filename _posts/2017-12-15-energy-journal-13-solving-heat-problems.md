@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Energy Journal 12 - Solving Heat Problems
+title:  Energy Journal 13 - Solving Heat Problems
 date:   2017-12-15
 excerpt: "Noooooooooooooooo..."
 image: "/media/Energy Blog Graphics/burning money.JPG"
