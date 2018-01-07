@@ -1,0 +1,35 @@
+<nav id="nav">
+
+  <ul class="links">
+    <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+    <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+    <li class="{% if page.url contains '/energy-e-portfolio/' %} active {% endif %}"><a href="{{ "/energy-e-portfolio/" | absolute_url }}">Energy e-Portfolio</a></li>
+  </ul>
+  
+  <ul class="icons">
+
+    <li><a href="http://{{site.website}}" class="icon fa-globe" rel="nofollow" target="_blank">
+        <span class="label">Website</span>
+      </a></li>
+
+    <li><a href="mailto:{{site.email}}" class="icon fa-envelope" rel="nofollow" target="_blank">
+        <span class="label">Email</span>
+      </a></li>
+    
+    <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow" target="_blank">
+        <span class="label">GitHub</span>
+      </a></li>
+
+    <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow" target="_blank">
+      <span class="label">Facebook</span>
+    </a></li>
+
+    <li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow" target="_blank">
+      <span class="label">Linkedin</span>
+    </a></li>
+
+  </ul>
+
+</nav>
+
+
