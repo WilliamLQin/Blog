@@ -33,11 +33,12 @@
 
 				<!-- Post -->
 				<section class="posts">
+					{% assign count = 0 %}
+
 					{% for post in site.posts %}
 
-						{% assign mod3 = forloop.index | modulo: 3 %}
-
 						{% if post.category contains page.target-category %}
+						{% capture _ %}{% increment count %}{% endcapture %}
 						<article>
 							<header>
 								<span class="date">{{ post.date | date_to_string }}</span>
@@ -51,15 +52,13 @@
 						</article>
 						{% endif %}
 
-						<!-- {% if mod3 == 0 %}
-						<article>
-							<header>
-								<h2><a href="#">Sponsored</h2>
-							</header>
-						</article>
-						{% endif %} -->
-
 					{% endfor %}
+
+					{% assign mod2 = count | modulo: 2 %}
+						{% if mod2 == 0 %}
+						<article>
+						</article>
+					{% endif %}
 				</section>
 
 			</div>
