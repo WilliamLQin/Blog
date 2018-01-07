@@ -47,7 +47,6 @@ Finally, this is a <a href="#">link</a>.</p>
 <h2>Lists</h2>
 <div class="row">
 	<div class="6u 12u$(small)">
-
 		<h3>Unordered</h3>
 		<ul>
 			<li>The first item on the list.</li>
@@ -55,7 +54,6 @@ Finally, this is a <a href="#">link</a>.</p>
 			<li>And the fourth item!</li>
 			<li>Just kidding that last one was the third.</li>
 		</ul>
-
 		<h3>Alternate</h3>
 		<ul class="alt">
 			<li>The first item on the list.</li>
@@ -63,10 +61,8 @@ Finally, this is a <a href="#">link</a>.</p>
 			<li>And the fourth item!</li>
 			<li>Just kidding that last one was the third.</li>
 		</ul>
-
 	</div>
 	<div class="6u$ 12u$(small)">
-
 		<h3>Ordered</h3>
 		<ol>
 			<li>The first item on the list.</li>
@@ -74,7 +70,6 @@ Finally, this is a <a href="#">link</a>.</p>
 			<li>And the fourth item</li>
 			<li>Just kidding that last one was the third.</li>
 		</ol>
-
 		<h3>Icons</h3>
 		<ul class="icons">
 			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -90,7 +85,6 @@ Finally, this is a <a href="#">link</a>.</p>
 			<li><a href="#" class="icon alt fa-github"><span class="label">Github</span></a></li>
 			<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
 		</ul>
-
 	</div>
 </div>
 <h3>Definition</h3>
