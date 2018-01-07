@@ -22,9 +22,13 @@ In particular, we examined two substances reaching thermal equilibrium: simple a
 2) With simple calorimetry, the solution to final temperature of the two substances is fairly straightforward. None of the substances change state, so we can just use specific heat.
 
 Energy Gained by Substance A (colder) = Energy Lost by Substance B (warmer)
+
 Q<sub>A</sub> = -Q<sub>B</sub>
+
 m<sub>A</sub>c<sub>A</sub>ΔT<sub>A</sub> = -m<sub>B</sub>c<sub>B</sub>ΔT<sub>B</sub>
+
 m<sub>A</sub>c<sub>A</sub>(T<sub>2</sub> - T<sub>1-A</sub>) = -m<sub>B</sub>c<sub>B</sub>(T<sub>2</sub> - T<sub>1-B</sub>)
+
 
 We can try this out with this sample problem:
 
@@ -35,11 +39,17 @@ The specific heat of copper is 385 J kg<sup>-1</sup> K<sup>-1</sup> and the spec
 m<sub>water</sub>c<sub>water</sub>(T<sub>2</sub> - T<sub>1-water</sub>) = -m<sub>copper</sub>c<sub>copper</sub>(T<sub>2 </sub>- T<sub>1-copper</sub>)
 
 0.800(4187)(T<sub>2</sub> - 20.0) = -0.200(385)(T<sub>2</sub> - 80.0)
+
 0.800(4187)T<sub>2</sub> - 20.0(0.800)(4187) = -0.200(385)T<sub>2</sub> + 80.0(0.200)(385)
+
 0.800(4187)T<sub>2</sub> + 0.200(385)T<sub>2</sub> = 20.0(0.800)(4187) + 80.0(0.200)(385)
+
 (0.800(4187) + 0.200(385))T<sub>2</sub> = 66992 + 6160
+
 (3349.6 + 77)T<sub>2</sub> = 73152
+
 (3426.6)T<sub>2</sub> = 73152
+
 T<sub>2</sub> ≅ 21.3 ℃
 
 The final temperature of the water is about 21.3 ℃.
@@ -57,12 +67,19 @@ A 37 g ice cube at -15 ℃ is dropped into cup of 2.0 kg of hot water at 50 ℃.
 The specific heat of ice is 2108 J kg<sup>-1</sup> K<sup>-1</sup>, the specific heat of water is 4187 J kg<sup>-1</sup> K<sup>-1</sup>, and the latent heat of fusion is 334 000 J kg<sup>-1</sup>.
 
 Let the ice be substance A and the water be substance B
+
 Q<sub>A(s)</sub> + Q<sub>A(f)</sub> + Q<sub>A(l)</sub> = -Q<sub>B
+
 </sub>m<sub>A</sub>c<sub>A(s)</sub>(0 - (-15)) + m<sub>A</sub>L<sub>fA</sub> + m<sub>A</sub>c<sub>A(l)</sub>(T<sub>2</sub> - 0) = -m<sub>B</sub>c<sub>B</sub>(T<sub>2</sub> - T1-B)
+
 (0.037)(2108)(15) + (0.037)(334000) + (0.037)(4187)(T<sub>2</sub>) = -(2.0)(4187)(T<sub>2</sub> - 50)
+
 13527.94 + 0.037(4187)T<sub>2</sub> = -2.0(4187)T<sub>2</sub> + 50(2.0)(4187)
+
 (0.037(4187) + 2.0(4187))T<sub>2</sub> = 418700 - 13527.94
+
 (154.919 + 8374)T<sub>2</sub> = 405172.06
+
 T<sub>2</sub> ≅ 48 ℃
 
 The final temperature of the water is about 48 ℃.

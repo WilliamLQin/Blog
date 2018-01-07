@@ -33,10 +33,15 @@ In the experiment, it was found that the relations were <b>not directly proporti
 2) We can use conservation of energy principles to find what the mathematical relation between final velocity and starting height should be:
 
 E<sub>k initial</sub> + E<sub>g initial</sub> = E<sub>k final</sub> + E<sub>g final
+
 </sub>½mv<sub>initial</sub><sup>2</sup>  + mgh<sub>initial</sub> = ½mv<sub>final</sub><sup>2</sup> + mgh<sub>final
+
 </sub>½m(0)<sup>2</sup> + mgh<sub>initial</sub> = ½mv<sub>final</sub><sup>2</sup> + mg(0)
+
 mgh<sub>initial</sub> = ½mv<sub>final</sub><sup>2
+
 </sup>2gh<sub>initial</sub> = v<sub>final</sub><sup>2
+
 </sup>(2gh<sub>initial</sub>)<sup>1/2</sup> = v<sub>initial</sub>
 
 As it is seen here, it’s either velocity is proportional to the square root of height, or the square of velocity is proportional to the height.
@@ -46,16 +51,23 @@ This equation also lets us find the experimental value of acceleration due to gr
 Finding experimental value of acceleration due to gravity using equation from figure 1:
 
 E<sub>g</sub> = E<sub>k</sub> ; E<sub>g</sub> = mgh, E<sub>k</sub> = ½mv<sup>2</sup>, v<sup>2</sup>/h = 20.3 ms<sup>-2</sup>
+
 mgh = ½mv<sup>2</sup>
+
 g = ½v<sup>2</sup>/h
+
 g= ½(20.3 ms<sup>-2</sup>)
+
 g = 10.2 ms<sup>-2</sup> 
 
 The experimental value is somewhat off from Earth’s theoretical value of acceleration due to gravity, and we can calculate the percentage error to see by how much it is off:
 
 % error = |theoretical - experimental|/theoretical
+
 % error = |g<sub>earth</sub> - g<sub>experimental</sub>|/g<sub>earth
+
 </sub>% error = 100 * |9.81 ms<sup>-2</sup> - 10.15 ms<sup>-2</sup>|/9.81 ms<sup>-2
+
 </sup>% error = 3.47%
 
 The percentage error of the experiment was 3.47%. This shows us how well we conducted the experiment and since 3.47% is fairly low, I would say that it was a success.
@@ -86,10 +98,15 @@ All labs should yield meaningful information, and this new information should al
 Finding experimental value of acceleration due to gravity using equation from figure 2:
 
 E<sub>g</sub> = E<sub>k</sub> ; E<sub>g</sub> = mgh, E<sub>k</sub> = ½mv<sup>2</sup>, v/h<sup>1/2</sup> = 4.97 m<sup>1/2</sup>s<sup>-1</sup>
+
 mgh = ½mv<sup>2</sup>
+
 g = ½v<sup>2</sup>/h
+
 g = ½v/h<sup>1/2</sup>
+
 g= ½(4.97 m<sup>1/2</sup>s<sup>-1</sup>)<sup>2</sup>
+
 g = 12.4 ms<sup>-2</sup> 
 
 12.4 ms<sup>-2</sup>  is the experimental value of acceleration due to gravity using figure 2, but 10.2 ms<sup>-2</sup>  is the experimental value of acceleration due to gravity using the equation from figure 1.

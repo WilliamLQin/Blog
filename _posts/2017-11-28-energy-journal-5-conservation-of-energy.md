@@ -30,8 +30,11 @@ Also, while the end velocity may be the same, a steeper incline will result in a
 2) Mass does not affect the amount of velocity gained from converting gravitational potential energy to kinetic energy. This is because of how mass is relevant in both energy equations: E<sub>k</sub> = ½mv<sup>2</sup>, and E<sub>g</sub> = mgh. When you equate the two using the law of conservation of energy, we find that the mass in both equations cancel each other out. We can then derive the equation for velocity:
 
 E<sub>k</sub> = E<sub>g</sub>
+
 ½mv<sup>2</sup> = mgΔh
+
 v<sup>2</sup> = 2gΔh
+
 v = (2gΔh)<sup>1/2</sup>
 
 3) If no positive work is done on an object (i.e. no increase in total mechanical energy), it will never be able to reach a height greater than the total mechanical energy divided by the weight of the object. This is primarily due to the conservation of energy, and that gravitational potential energy is given by the equation E<sub>g</sub> = mgΔh. From this equation, we get Δh = (E<sub>g</sub>)/(mg), and unless there was a change in mechanical energy, the height of the original object cannot be greater than the situation where all mechanical energy is in the form of gravitational potential energy. This is why you can hold a pendulum up to your chin and rest assured that it will not hit you when you let go (provided you don’t put any force on it when you let go).
