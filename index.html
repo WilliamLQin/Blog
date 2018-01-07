@@ -1,6 +1,6 @@
 ---
 layout: null
-title: The Thinking Rock
+title: Home
 description: I'm here to share my opinions, personal thoughts, side projects, video games, and new ideas.
 sitemap:
     priority: 1.0
@@ -67,7 +67,7 @@ sitemap:
 
 				<!-- Posts -->
 				<section class="posts">
-					{% for post in site.posts limit:3 %}
+					{% for post in site.posts %}
 
 						{% assign mod3 = forloop.index | modulo: 3 %}
 
@@ -85,13 +85,13 @@ sitemap:
 						</article>
 						{% endif %}
 						
-						{% if mod3 == 0 %}
+						<!-- {% if mod3 == 0 %}
 						<article>
 							<header>
 								<h2><a href="#">Sponsored</h2>
 							</header>
 						</article>
-						{% endif %}
+						{% endif %} -->
 
 					{% endfor %}
 				</section>
