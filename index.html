@@ -67,8 +67,7 @@ sitemap:
 
 				<!-- Posts -->
 				<section class="posts">
-					{% assign count = 0 %}
-
+					{% assign posts = site.posts | where: "category", "main" %}
 					{% for post in site.posts %}
 
 						{% if post.category contains 'main' %}
@@ -85,11 +84,11 @@ sitemap:
 							</ul>
 						</article>
 						{% endif %}
-
+						
 					{% endfor %}	
 
-					{% assign mod2 = count | modulo: 2 %}
-						{% if mod2 == 0 %}
+					{% assign mod2 = posts.size | modulo: 2 %}
+						{% if mod2 == 1 %}
 						<article>
 						</article>
 					{% endif %}

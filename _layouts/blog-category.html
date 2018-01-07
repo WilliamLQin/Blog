@@ -33,12 +33,8 @@
 
 				<!-- Post -->
 				<section class="posts">
-					{% assign count = 0 %}
-
-					{% for post in site.posts %}
-
-						{% if post.category contains page.target-category %}
-						{% capture _ %}{% increment count %}{% endcapture %}
+					{% assign posts = site.posts | where: "category", page.target-category %}
+					{% for post in posts %}
 						<article>
 							<header>
 								<span class="date">{{ post.date | date_to_string }}</span>
@@ -50,12 +46,10 @@
 								<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 							</ul>
 						</article>
-						{% endif %}
-
 					{% endfor %}
 
-					{% assign mod2 = count | modulo: 2 %}
-						{% if mod2 == 0 %}
+					{% assign mod2 = posts.size | modulo: 2 %}
+						{% if mod2 == 1 %}
 						<article>
 						</article>
 					{% endif %}
