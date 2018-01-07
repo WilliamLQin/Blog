@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Talk to Control Tech
-date:   2017-11-07
+date:   2017-12-04
 excerpt: "Voice activated keyboard input web application!"
 image: "/media/img/talk2control1.JPG"
 category: "main"

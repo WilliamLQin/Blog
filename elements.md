@@ -43,6 +43,12 @@ Finally, this is a <a href="#">link</a>.</p>
 
 <hr />
 
+<h2>Video</h2>
+<video controls width="100%" height="auto">
+<source src="{{ "/media/Energy Blog Graphics/burning money.mp4" | absolute_url }}" type="video/mp4">
+</video>
+
+
 <!-- Lists -->
 <h2>Lists</h2>
 <div class="row">
